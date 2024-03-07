@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablice</title>
+</head>
+
+<style>
+    table{
+        border: 3px solid black;
+        border-collapse: collapse;
+    }
+    th{
+        border: 1px solid red;
+    }
+    td{
+        border: 1px solid green;
+    }
+</style>
+
+<body>
+
+    <a href="../main_page.html">Main page</a>
+
+    <table>
+        <caption>Table with Rowspan and Colspan</caption>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Class</th>
+            <th>School</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Iva</td>
+            <td rowspan="2">Mijic</td>
+            <td>11</td>
+            <td rowspan="2">MVM School</td>
+        </tr>
+
+        <tr>
+            <td>A</td>  
+        </tr>
+
+        <tr>
+            <td rowspan="2">Špiro</td>
+            <td rowspan="2">Girica</td>
+            <td>3</td>
+            <td rowspan="2">LMS School</td>
+        </tr>
+
+        <tr>
+            <td>B</td>  
+        </tr>
+
+        <tr>
+            <td rowspan="2">Ćiro</td>
+            <td rowspan="2">Mikić</td>
+            <td>5</td>
+            <td rowspan="2">SCPM School</td>
+        </tr>
+
+        <tr>
+            <td>A</td>  
+        </tr>
+
+    </table>
+
+
+</body>
+
+</html>
